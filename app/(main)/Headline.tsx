@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>开发者
+      <span className="font-mono">&lt;</span>程序员
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -19,15 +19,14 @@ function Developer() {
 
 function Designer() {
   return (
-    <span className="group relative rounded-2xl bg-black/5 p-1 dark:bg-white/5">
-      <span className="pointer-events-none absolute inset-0 border border-lime-700/90 opacity-70 group-hover:border-dashed group-hover:opacity-100 dark:border-lime-400/90">
-        <span className="absolute -left-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-0.5 -right-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
-        <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+    <div className="relative p-2">
+      <span className="absolute border-l border-t border-lime-700/90 dark:border-lime-400/90 w-full h-3/4"></span>
+      <span className="absolute border-b border-r border-lime-700/90 dark:border-lime-400/90 w-full h-3/4 bottom-0"></span>
+      <span className="absolute border-t border-lime-700/90 dark:border-lime-400/90 w-full h-1/4 top-0 triangle"></span>
+      <span className="group-hover:border-dashed opacity-70 group-hover:opacity-100">
+        架构师
       </span>
-      设计师
-    </span>
+    </div>
   )
 }
 
@@ -35,7 +34,7 @@ function OCD() {
   return (
     <span className="group">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
+      <span>自由职业者</span>
     </span>
   )
 }
@@ -80,10 +79,11 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.cn">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是原原(Kevin.Zeng)，
+          <PeekabooLink href="https://nobad.work">NoBad（不错）工作室</PeekabooLink>
+          创始人，目前致力于探索程序员的自由职业之路。
+          我相信，程序员这个团体拥有自由职业的天赋和潜力，具备独立思考、解决问题的能力，也拥有创造力和创新精神。
+          我希望与大家共同努力，将“不错”工作室发展成为一个专注于探索和发掘程序员自由职业潜力的创新平台。
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,12 +99,12 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://twitter.com/nobad"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
+          href="https://youtube.com/nobad"
           aria-label="我的 YouTube"
           platform="youtube"
         />
@@ -114,18 +114,18 @@ export function Headline() {
           platform="bilibili"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/nobad"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://cali.so/tg"
+          href="https://telegram.com/nobad"
           aria-label="我的 Telegram"
           platform="telegram"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:root@nobad.work"
           aria-label="我的邮箱"
           platform="mail"
         />
