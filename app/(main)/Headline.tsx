@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>自由职业者</span>
+      <span>探索者</span>
     </span>
   )
 }
@@ -81,9 +81,11 @@ export function Headline() {
       >
         <Balancer>
           我是原原(Kevin.Zeng)，
-          <PeekabooLink href="https://nobad.work">NoBad（不错）工作室</PeekabooLink>
+          <PeekabooLink href="https://nobad.work">不错工作室</PeekabooLink>
           创始人，目前致力于探索程序员的自由职业之路。
+
           我相信，程序员这个团体拥有自由职业的天赋和潜力，具备独立思考、解决问题的能力，也拥有创造力和创新精神。
+
           我希望与大家共同努力，将“不错”工作室发展成为一个专注于探索和发掘程序员自由职业潜力的创新平台。
         </Balancer>
       </motion.p>
@@ -110,7 +112,7 @@ export function Headline() {
           platform="youtube"
         />
         <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://bilibili.com/nobad"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
