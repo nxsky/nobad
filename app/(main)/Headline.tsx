@@ -19,14 +19,15 @@ function Developer() {
 
 function Designer() {
   return (
-    <div className="relative p-2">
-      <span className="absolute border-l border-t border-lime-700/90 dark:border-lime-400/90 w-full h-3/4"></span>
-      <span className="absolute border-b border-r border-lime-700/90 dark:border-lime-400/90 w-full h-3/4 bottom-0"></span>
-      <span className="absolute border-t border-lime-700/90 dark:border-lime-400/90 w-full h-1/4 top-0 triangle"></span>
-      <span className="group-hover:border-dashed opacity-70 group-hover:opacity-100">
-        架构师
-      </span>
-    </div>
+    <span className="group relative rounded-2xl bg-black/5 p-1 dark:bg-white/5">
+    <span className="pointer-events-none absolute inset-0 border border-lime-700/90 opacity-70 group-hover:border-dashed group-hover:opacity-100 dark:border-lime-400/90">
+    <span className="absolute -left-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+    <span className="absolute -bottom-0.5 -right-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+    <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+    <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
+    </span>
+    架构师
+    </span>
   )
 }
 
