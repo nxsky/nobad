@@ -2,10 +2,10 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import pciLogo from '~/assets/company/pci.png'
-import grciLogo from '~/assets/company/grci.png'
-import aimyLogo from '~/assets/company/aimy.png'
-import nobadLogo from '~/assets/company/nobad.png'
+import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
+import abletiveLogo from '~/assets/company/abletive.png'
+import vvsLogo from '~/assets/company/vvs.png'
+import zolplayLogo from '~/assets/company/zolplay.png'
 
 type Resume = {
   company: string
@@ -18,7 +18,7 @@ const resume: Resume[] = [
   {
     company: 'NoBad(不错)工作室',
     title: '创始人',
-    logo: nobadLogo,
+    logo: zolplayLogo,
     start: '2023',
     end: {
       label: '至今',
@@ -28,21 +28,21 @@ const resume: Resume[] = [
   {
     company: '艾美网络',
     title: 'Golang高级开发工程师',
-    logo: aimyLogo,
+    logo: vvsLogo,
     start: '2020',
     end: '2023',
   },
   {
     company: '新科佳都',
     title: '解决方案架构师',
-    logo: pciLogo,
+    logo: eightNinthsLogo,
     start: '2016',
     end: '2020',
   },
   {
     company: '粤铁科技',
     title: 'C++高级开发工程师 & 研发一室主任',
-    logo: grciLogo,
+    logo: abletiveLogo,
     start: '2010',
     end: '2015',
   },
