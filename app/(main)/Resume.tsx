@@ -2,9 +2,9 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
+import eightNinthsLogo from '~/assets/company/8ninths.png'
 import abletiveLogo from '~/assets/company/abletive.png'
-import vvsLogo from '~/assets/company/vvs.png'
+import vvsLogo from '~/assets/company/aimy.png'
 import zolplayLogo from '~/assets/company/zolplay.png'
 
 type Resume = {
